@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1.25rem;
+}
+.logo {
+  grid-column: auto / span 4;
+}
+.navigator {
+  grid-column: auto / span 4;
+}
+
+.user-image {
+  margin-top: 0.31rem;
+}
+
+.card-products-list {
+  grid-column: auto / span 2;
+}
+.card-products-list-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.card-article {
+    grid-column: auto / span 4;
+}
+
+.button-book, .button-booked, .button-out {
+   grid-column: 2 / span 2;
+}
+
+.article-header {
+    grid-column: 2 / span 3;
+
+}
+.bread-text {
+    grid-column: auto / span 4;
+}
+.article-loan-time {
+    grid-column: auto / span 4;
+}
+.article-loan-time a {
+    color: inherit;
+  }
+  
