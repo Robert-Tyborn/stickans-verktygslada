@@ -166,7 +166,8 @@ Body {
 .card-products-list {
   max-width: 10.875rem;
   min-height: 11.875rem;
-  margin-left: 0.31rem;
+  /* margin-left: 0.31rem; */
+  margin: auto;
   margin-top: 0.81rem;
 }
 .products-list-image {

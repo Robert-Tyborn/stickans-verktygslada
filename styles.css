@@ -3,6 +3,7 @@
 }
 
 body {
+    max-width: 430px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1.25rem;
@@ -46,6 +47,10 @@ body {
     grid-column: auto / span 4;
 }
 .article-loan-time a {
+    text-decoration: underline;
     color: inherit;
+  }
+a {
+    text-decoration: none;
   }
   
