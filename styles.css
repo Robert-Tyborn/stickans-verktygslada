@@ -3,7 +3,7 @@
 }
 
 body {
-    max-width: 430px;
+  max-width: 430px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1.25rem;
@@ -29,28 +29,34 @@ body {
 }
 
 .card-article {
-    grid-column: auto / span 4;
+  grid-column: auto / span 4;
 }
 
-.button-book, .button-booked, .button-out {
-   grid-column: 2 / span 2;
+.button-book,
+.button-booked,
+.button-out {
+  grid-column: 2 / span 2;
 }
 
 .article-header {
-    grid-column: 2 / span 3;
-
+  grid-column: 2 / span 3;
 }
 .bread-text {
-    grid-column: auto / span 4;
+  grid-column: auto / span 4;
 }
 .article-loan-time {
-    grid-column: auto / span 4;
+  grid-column: auto / span 4;
 }
 .article-loan-time a {
-    text-decoration: underline;
-    color: inherit;
-  }
+  text-decoration: underline;
+  color: inherit;
+}
 a {
-    text-decoration: none;
-  }
-  
+  text-decoration: none;
+}
+
+.secret-link-to-components {
+  max-width: 1px;
+  height: 1px;
+  font-size: 1px;
+}
